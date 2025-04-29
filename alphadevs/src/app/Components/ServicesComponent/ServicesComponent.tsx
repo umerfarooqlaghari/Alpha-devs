@@ -5,12 +5,12 @@ import { useRouter } from 'next/navigation';
 import { useState } from 'react';
 
 const services = [
-  { number: '01', title: 'WEB DEVELOPMENT', subtitle: 'EXPERTISE IN ALL TECH STACKS', right: 'MOST AQUIRED SERVICE', link: '/services/branding' },
-  { number: '02', title: 'MOBILE DEVELOPMENT', subtitle: 'MOBILE DEVELOPMENT IOS AND GOOGLE PLAY', right: '', link: '/services/packaging' },
-  { number: '03', title: 'SOFTWARE CONSULTANCY', subtitle: 'SOFTWARE, PRODUCT & ARCHITECTURE CONSULTATION', right: 'MOST POPULAR SERVICE', link: '/services/social-media' },
-  { number: '04', title: 'SHOPIFY & WORDPRESS', subtitle: 'CUSTOMIZED NO-CODE E-COMMERCE STORES', right: '', link: '/services/templates' },
-  { number: '05', title: 'WEB DESIGN AND UI/UX', subtitle: 'UI/UX CUSTOM DESIGING & WIREFRAMING', right: '', link: '/services/web-design' },
-  { number: '06', title: 'AI, ML & DEEP LEARNING', subtitle: 'EXPERT LEVEL AI INTEGRATION', right: '', link: '/services/monthly-design' },
+  { number: '01', title: 'WEB DEVELOPMENT', subtitle: 'EXPERTISE IN ALL TECH STACKS', right: 'MOST AQUIRED SERVICE', link: '/comingsoon' },
+  { number: '02', title: 'MOBILE DEVELOPMENT', subtitle: 'MOBILE DEVELOPMENT IOS AND GOOGLE PLAY', right: '', link: '/comingsoon' },
+  { number: '03', title: 'SOFTWARE CONSULTANCY', subtitle: 'SOFTWARE, PRODUCT & ARCHITECTURE CONSULTATION', right: 'MOST POPULAR SERVICE', link: '/comingsoon' },
+  { number: '04', title: 'SHOPIFY & WORDPRESS', subtitle: 'CUSTOMIZED NO-CODE E-COMMERCE STORES', right: '', link: '/comingsoon' },
+  { number: '05', title: 'WEB DESIGN AND UI/UX', subtitle: 'UI/UX CUSTOM DESIGING & WIREFRAMING', right: '', link: '/comingsoon' },
+  { number: '06', title: 'AI, ML & DEEP LEARNING', subtitle: 'EXPERT LEVEL AI INTEGRATION', right: '', link: '/comingsoon' },
 ];
 
 export default function ServicesComponent() {
