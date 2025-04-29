@@ -30,8 +30,8 @@ export default function FooterComponent() {
       <div className={styles.bottomSection}>
         <span>Copyright © AlphaDevs 2025</span>
         <span>📍 Karachi, Pakistan</span>
-        <span>Upwork</span>
-        <span>LinkedIn</span>
+        <span><a href='https://www.upwork.com/freelancers/~015bb35b01027c8cb7'>Upwork</a></span>
+        <span><a href='https://www.linkedin.com/company/cenrjy/'>LinkedIn</a></span>
       </div>
     </footer>
   );

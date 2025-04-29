@@ -27,17 +27,6 @@
     gap: 30px;
   }
   
-  .nav a {
-    color: #fff;
-    font-weight: 500;
-    text-decoration: none;
-    transition: 0.3s;
-  }
-  
-  .nav a:hover {
-    color: #ff4e75;
-  }
-  
   .menuToggle {
     display: none;
     font-size: 28px;
@@ -46,6 +35,23 @@
     border: none;
     cursor: pointer;
   }
+
+  .nav a {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    transition: color 0.3s ease;
+    font-weight: 500;
+  }
+  
+  .nav a:hover {
+    color:rgb(84, 82, 79); 
+  }
+  
+  nav a.active {
+    color:rgb(76, 75, 72);
+  }
+  
   
   /* Mobile */
   @media (max-width: 768px) {
