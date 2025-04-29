@@ -1,0 +1,93 @@
+.contactSection {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #0a0a0a;
+    padding: 100px 40px;
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+    gap: 60px;
+    flex-wrap: wrap;
+  }
+  
+  .contactLeft,
+  .contactRight {
+    flex: 1;
+    min-width: 300px;
+  }
+  
+  .smallText {
+    font-size: 14px;
+    color: #aaa;
+    margin-bottom: 8px;
+  }
+  
+  .heading {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+  
+  .subheading {
+    font-size: 14px;
+    color: #bbb;
+    margin-bottom: 30px;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .form input,
+  .form textarea {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #555;
+    padding: 10px;
+    color: #fff;
+    font-size: 14px;
+    outline: none;
+  }
+  
+  .form input::placeholder,
+  .form textarea::placeholder {
+    color: #666;
+  }
+  
+  .form button {
+    margin-top: 10px;
+    background-color: #444;
+    border: none;
+    padding: 12px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .form button:hover {
+    background-color: #666;
+  }
+  
+  .contactRight {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+  
+  .infoBlock h4 {
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    color: #aaa;
+  }
+  
+  .infoBlock p {
+    font-size: 14px;
+    color: #ddd;
+    line-height: 1.6;
+  }
+  
