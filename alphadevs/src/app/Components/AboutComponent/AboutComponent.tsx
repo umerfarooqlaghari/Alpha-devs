@@ -4,26 +4,27 @@ import { motion } from 'framer-motion';
 
 const timeline = [
   {
-    date: '29th May, 2010',
-    title: 'Heading 1',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. In, quod quis ver sapiente quia ex et facere consequatur non est.',
+    date: '2nd Feb, 2025',
+    title: 'Idea of Alpha-Devs',
+    description: 'The vision for Alpha-devs was born, aiming to revolutionize the world of custom software development.',
   },
   {
-    date: '29th May, 2012',
-    title: 'Heading 2',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. In, quod quis ver sapiente quia ex et facere consequatur non est.',
+    date: '28th Feb, 2025',
+    title: 'Breaking the ice',
+    description: 'Alpha-devs officially launched, offering full-stack development solutions to startups and enterprises.',
   },
   {
-    date: '29th May, 2015',
-    title: 'Heading 3',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. In, quod quis ver sapiente quia ex et facere consequatur non est.',
+    date: '3rd March, 2025',
+    title: 'Breakthrough',
+    description: 'Secured and delivered our first international project, marking a major milestone in Alpha-devs’ journey.',
   },
   {
-    date: '29th May, 2019',
-    title: 'Heading 4',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. In, quod quis ver sapiente quia ex et facere consequatur non est.',
+    date: '23rd April, 2025',
+    title: 'Team of 10',
+    description: 'Grew into a passionate team of 10 talented developers, designers, and innovators driving growth forward.',
   },
 ];
+
 
 export default function AboutComponent() {
   return (

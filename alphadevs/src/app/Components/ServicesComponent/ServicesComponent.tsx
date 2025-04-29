@@ -5,12 +5,12 @@ import { useRouter } from 'next/navigation';
 import { useState } from 'react';
 
 const services = [
-  { number: '01', title: 'BRANDING', subtitle: 'BRAND STRATEGY + IDENTITY', right: '& BEST SELLER BRAND TO SOCIAL', link: '/services/branding' },
-  { number: '02', title: 'PACKAGING', subtitle: 'DESIGN', right: '', link: '/services/packaging' },
-  { number: '03', title: 'SOCIAL MEDIA', subtitle: 'MONTHLY DESIGN + MANAGEMENT', right: '', link: '/services/social-media' },
-  { number: '04', title: 'TEMPLATES', subtitle: 'CUSTOMIZED TEMPLATES FOR SOCIAL MEDIA', right: '', link: '/services/templates' },
-  { number: '05', title: 'WEB DESIGN', subtitle: 'SQUARESPACE, SHOPIFY & WORDPRESS', right: '& BEST SELLER #5DAY BRAND TO WEB', link: '/services/web-design' },
-  { number: '06', title: 'MONTHLY DESIGN', subtitle: 'SUPPORT FOR REGULAR DESIGN WORK', right: '', link: '/services/monthly-design' },
+  { number: '01', title: 'WEB DEVELOPMENT', subtitle: 'EXPERTISE IN ALL TECH STACKS', right: 'MOST AQUIRED SERVICE', link: '/services/branding' },
+  { number: '02', title: 'MOBILE DEVELOPMENT', subtitle: 'MOBILE DEVELOPMENT IOS AND GOOGLE PLAY', right: '', link: '/services/packaging' },
+  { number: '03', title: 'SOFTWARE CONSULTANCY', subtitle: 'SOFTWARE, PRODUCT & ARCHITECTURE CONSULTATION', right: 'MOST POPULAR SERVICE', link: '/services/social-media' },
+  { number: '04', title: 'SHOPIFY & WORDPRESS', subtitle: 'CUSTOMIZED NO-CODE E-COMMERCE STORES', right: '', link: '/services/templates' },
+  { number: '05', title: 'WEB DESIGN AND UI/UX', subtitle: 'UI/UX CUSTOM DESIGING & WIREFRAMING', right: '', link: '/services/web-design' },
+  { number: '06', title: 'AI, ML & DEEP LEARNING', subtitle: 'EXPERT LEVEL AI INTEGRATION', right: '', link: '/services/monthly-design' },
 ];
 
 export default function ServicesComponent() {
@@ -33,11 +33,9 @@ export default function ServicesComponent() {
           whileHover={{ scale: 1.02 }}
           onClick={() => handleClick(s.link, idx)}
         >
-          {/* Always rendered */}
           <div className={`${styles.overlay} ${activeIndex === idx ? styles.showOverlay : ''}`}></div>
 
           <div className={styles.left}>
-            <span className={styles.number}>({s.number})</span>
             <div>
               <h3>{s.title}</h3>
               <p>{s.subtitle}</p>
