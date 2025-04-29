@@ -4,6 +4,8 @@
     color: #fff;
     font-family: 'Inter', sans-serif;
     overflow-x: hidden;
+    scroll-margin-top: 12px;
+    padding-top: 120px;
   }
   
   .heading {
@@ -72,5 +74,12 @@
   .text {
     font-size: 14px;
     color: #ccc;
+  }
+
+  @media (max-width: 768px) {
+    .testimonialsSection {
+      scroll-margin-top: 0;
+      padding-top: 20px;
+    }
   }
   

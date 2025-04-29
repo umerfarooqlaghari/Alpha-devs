@@ -8,6 +8,8 @@
     font-family: 'Inter', sans-serif;
     gap: 60px;
     flex-wrap: wrap;
+    scroll-margin-top: 150px;
+    padding-top: 160px;
   }
   
   .contactLeft,
@@ -91,3 +93,9 @@
     line-height: 1.6;
   }
   
+  @media (max-width: 768px) {
+    .contactSection {
+      scroll-margin-top: 0;
+      padding-top: 20px;
+    }
+  }

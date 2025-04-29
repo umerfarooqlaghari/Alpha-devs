@@ -1,10 +1,17 @@
 .section {
+    scroll-margin-top: 100px;
+    padding-top: 40px;
     background-color: #0a0a0a;
     color: #fff;
     padding: 80px 20px;
     font-family: 'Inter', sans-serif;
     position: relative;
     overflow: hidden;
+
+    @media (min-width: 768px) {
+      padding-top: 120px;
+    }
+    
   }
   
   .serviceRow {

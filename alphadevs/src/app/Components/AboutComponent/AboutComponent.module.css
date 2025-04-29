@@ -4,6 +4,8 @@
     position: relative;
     color: #fff;
     font-family: 'Inter', sans-serif;
+    scroll-margin-top: 100px;
+    padding-top: 100px;
   }
   
   .timelineLine {
@@ -162,6 +164,11 @@
         position: relative;
         z-index: 3;
         font-family: 'Inter', sans-serif;
+      }
+
+      .timelineContainer {
+        scroll-margin-top: 0;
+        padding-top: 20px;
       }
   }
   
