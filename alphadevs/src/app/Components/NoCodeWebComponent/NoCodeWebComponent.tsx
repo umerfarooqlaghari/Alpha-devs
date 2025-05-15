@@ -51,7 +51,6 @@ We create stunning no-code and low-code eCommerce stores with full customization
         {/* 🔹 CTA Capsules */}
         <div className={styles.ctaContainer}>
           
-
           <motion.a
             href="https://www.upwork.com/freelancers/~015bb35b01027c8cb7"
             target="_blank"
