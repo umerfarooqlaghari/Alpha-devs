@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <main className={styles.main}>
       <video autoPlay muted loop className={styles.bgVideo}>
-        <source src="/FullStackvideo.mp4" type="video/mp4" />
+        <source src="/FullStackVideo.mp4" type="video/mp4" />
       </video>
       <div className={styles.overlay}></div>
       <HeaderComponent />
