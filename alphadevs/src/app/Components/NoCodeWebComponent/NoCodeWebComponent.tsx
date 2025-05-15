@@ -29,6 +29,7 @@ export default function WebDevelopmentPage() {
           NO-CODE WEBSITE DEVELOPMENT
         </motion.h1>
 
+
         <motion.p
           initial={{ opacity: 0, y: 40 }}
           animate={{ opacity: 1, y: 0 }}
