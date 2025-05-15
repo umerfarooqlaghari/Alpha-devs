@@ -14,7 +14,7 @@ const testimonials = [
     name: 'David Patel',
     role: 'Project Manager',
     text: 'I’ve tested numerous options in this category, but one stands out for its intuitive design and comprehensive functionality.',
-    image: '/David.jpg',
+    image: '/david.jpg',
   },
   {
     name: 'Emily Carter',
